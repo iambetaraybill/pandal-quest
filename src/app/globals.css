@@ -192,6 +192,13 @@
   background: oklch(0.6 0.17 250);
   box-shadow: 0 0 0 6px oklch(0.6 0.17 250 / 25%);
 }
+.pq-marker.next {
+  box-shadow: 0 0 0 5px oklch(0.52 0.19 28 / 35%);
+}
+.pq-marker.skipped {
+  background: oklch(0.72 0.02 70);
+  color: var(--ink);
+}
 
 @keyframes stamp-in {
   0% {
