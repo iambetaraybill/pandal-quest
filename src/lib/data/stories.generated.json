@@ -1,0 +1,368 @@
+{
+  "bagbazar": {
+    "en": {
+      "id": "bagbazar",
+      "story": "Welcome to Bagbazar, where tradition breathes in every corner of North Kolkata. Feel the vibrant energy of this ancient community celebration as the festive spirit takes hold.",
+      "lookFor": [
+        "See the old idol.",
+        "Hear the evening fair.",
+        "Spot the community gathering."
+      ],
+      "trivia": {
+        "q": "What is a key feature of the Bagbazar Sarbojanin community puja?",
+        "options": [
+          "It is known for its modern, themed decorations.",
+          "It maintains a traditional, old-style idol.",
+          "It focuses solely on contemporary music.",
+          "It is a very recent establishment."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "kumartuli-quarter": {
+    "en": {
+      "id": "kumartuli-quarter",
+      "story": "Welcome to Kumartuli, where generations of artisans shape divine forms from clay and straw. Wander through these narrow riverside lanes and feel the vibrant spirit of Durga Puja drawing near.",
+      "lookFor": [
+        "See straw idols waiting",
+        "Touch wet clay forms",
+        "Hear artisan chatter"
+      ],
+      "trivia": {
+        "q": "What materials are traditionally used by artisans in Kumartuli to sculpt Durga idols?",
+        "options": [
+          "Marble and bronze",
+          "Straw, bamboo, and clay",
+          "Wood and plaster",
+          "Paper and cloth"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "kumartuli-park": {
+    "en": {
+      "id": "kumartuli-park",
+      "story": "Welcome to Kumartuli, where artistry meets devotion under the festive glow. Feel the vibrant energy of this community puja as artisans celebrate the divine presence.",
+      "lookFor": [
+        "See intricate clay figures.",
+        "Hear the rhythmic dhak beats.",
+        "Observe ambitious art displays."
+      ],
+      "trivia": {
+        "q": "What is the primary focus of a community puja like Sarbojanin?",
+        "options": [
+          "A. A strictly religious ritual performed by a single family.",
+          "B. A celebration open to the entire local community.",
+          "C. An exclusive event for wealthy patrons only.",
+          "D. A temporary setup for a commercial exhibition."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "ahiritola": {
+    "en": {
+      "id": "ahiritola",
+      "story": "Welcome to the vibrant heart of North Kolkata! Feel the festive energy as you arrive near the historic Ahiritola Ghat. Immerse yourself in the breathtaking, detailed pandals adorning these old city lanes.",
+      "lookFor": [
+        "See intricate idol decorations.",
+        "Hear rhythmic dhak drumming.",
+        "Find riverside pandal views."
+      ],
+      "trivia": {
+        "q": "What type of community puja is Ahiritola Sarbojanin?",
+        "options": [
+          "A grand, elaborate pandal.",
+          "A Sarbojanin community puja.",
+          "A private family observance.",
+          "A purely religious ritual."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "shobhabazar-rajbari": {
+    "en": {
+      "id": "shobhabazar-rajbari",
+      "story": "Welcome to Shobhabazar, where history breathes in every courtyard. Experience the timeless charm of a family puja running since 1757 in this historic *bonedi bari*.",
+      "lookFor": [
+        "See ancient architecture.",
+        "Find traditional decorations.",
+        "Hear festive music."
+      ],
+      "trivia": {
+        "q": "What is the traditional name for the main hall where the idol is worshipped in a traditional Bengali family puja?",
+        "options": [
+          "Pandal",
+          "Thakur-dalan",
+          "Mandap"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "jagat-mukherjee-park": {
+    "en": {
+      "id": "jagat-mukherjee-park",
+      "story": "Welcome to Jagat Mukherjee Park, where community spirit thrives near the Shyambazar crossing. Feel the vibrant energy as this North Kolkata park celebrates the spirit of Durga Puja.",
+      "lookFor": [
+        "See creative theme work.",
+        "Find community gatherings.",
+        "Notice the park setting."
+      ],
+      "trivia": {
+        "q": "What type of puja is celebrated at Jagat Mukherjee Park?",
+        "options": [
+          "A. Private family puja",
+          "B. Community puja (sarbojanin)",
+          "C. Corporate celebration",
+          "D. Temple-based ritual"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "nalin-sarkar-street": {
+    "en": {
+      "id": "nalin-sarkar-street",
+      "story": "Welcome to Nalin Sarkar Street, where community spirit shines bright. Experience the vibrant energy of a Sarbojanin celebration in North Kolkata.",
+      "lookFor": [
+        "See artistic pandals.",
+        "Find local treats.",
+        "Listen to the dhak."
+      ],
+      "trivia": {
+        "q": "What is the primary characteristic of a Sarbojanin puja?",
+        "options": [
+          "It is a private family event.",
+          "It is a community-organized celebration.",
+          "It is a strictly religious ritual.",
+          "It is a state-sponsored event."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "sikdarbagan": {
+    "en": {
+      "id": "sikdarbagan",
+      "story": "Welcome to Sikdarbagan, where community spirit thrives under the festive glow. Experience the vibrant energy of a long-running neighbourhood puja drawing crowds through the evening.",
+      "lookFor": [
+        "See the decorated pandal entrance.",
+        "Listen to the evening dhak beats.",
+        "Find the community gathering spot."
+      ],
+      "trivia": {
+        "q": "What is the primary characteristic of a 'Sarbojanin' puja?",
+        "options": [
+          "It is a private family ceremony.",
+          "It is a community-organized celebration.",
+          "It is a religious festival held only by priests.",
+          "It is a commercial event."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "shyambazar-nabin-sangha": {
+    "en": {
+      "id": "shyambazar-nabin-sangha",
+      "story": "Welcome to the vibrant heart of North Kolkata! Feel the festive energy as you arrive at this community puja, a true celebration of togetherness.",
+      "lookFor": [
+        "See vibrant pandal decorations.",
+        "Hear the rhythmic sound of the dhak.",
+        "Observe intricate idol craftsmanship."
+      ],
+      "trivia": {
+        "q": "What is the main deity worshipped during Durga Puja?",
+        "options": [
+          "Shiva",
+          "Vishnu",
+          "Durga",
+          "Krishna"
+        ],
+        "answer": 2
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "kashi-bose-lane": {
+    "en": {
+      "id": "kashi-bose-lane",
+      "story": "Welcome to Kashi Bose Lane, where vibrant community spirit blooms in this narrow North Kolkata lane. Feel the festive energy as inventive pandals showcase creativity under the Puja lights.",
+      "lookFor": [
+        "Spot creative pandal design.",
+        "See festive decorations gleam.",
+        "Hear joyful community chatter."
+      ],
+      "trivia": {
+        "q": "What is the primary focus of a 'sarbojanin' community puja?",
+        "options": [
+          "A private family celebration",
+          "A celebration open to all community members",
+          "A religious ceremony held only for priests",
+          "An exclusive event for wealthy patrons"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "simla-byayam-samiti": {
+    "en": {
+      "id": "simla-byayam-samiti",
+      "story": "Welcome to Simla Byayam Samiti, where community spirit thrives in North Kolkata. Feel the vibrant energy of a puja rooted in a century of neighborhood history and freedom's legacy.",
+      "lookFor": [
+        "See old gym banners.",
+        "Find community gathering spots.",
+        "Listen to local music."
+      ],
+      "trivia": {
+        "q": "What is the historical root mentioned for this Durga Puja?",
+        "options": [
+          "A temple established in 1926.",
+          "A community puja growing from a gymnasium.",
+          "A celebration linked to Swami Vivekananda.",
+          "A modern initiative started recently."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "tala-prattoy": {
+    "en": {
+      "id": "tala-prattoy",
+      "story": "Welcome to Tala Park, where the community spirit of Sarbojanin Puja shines brightly. Feel the festive energy as you immerse yourself in Kolkata's vibrant Durga Puja celebrations.",
+      "lookFor": [
+        "See large art installations.",
+        "Hear the festive music.",
+        "Spot the crowded crowds."
+      ],
+      "trivia": {
+        "q": "What type of community puja is Tala Park known for?",
+        "options": [
+          "A. Ikon Puja",
+          "B. Sarbojanin Puja",
+          "C. Private Puja",
+          "D. Baul Puja"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "sreebhumi": {
+    "en": {
+      "id": "sreebhumi",
+      "story": "Welcome to Lake Town, where the community spirit shines bright. Feel the vibrant energy of this Sarbojanin celebration as lights illuminate the evening.",
+      "lookFor": [
+        "See giant replica pandals.",
+        "Hear the rhythmic dhak drummers.",
+        "Spot dazzling lights everywhere."
+      ],
+      "trivia": {
+        "q": "What type of community puja is Sreebhumi Sporting Club known for?",
+        "options": [
+          "A. Immersion Puja",
+          "B. Sarbojanin Puja",
+          "C. Tribal Puja",
+          "D. Private Puja"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "college-square": {
+    "en": {
+      "id": "college-square",
+      "story": "Welcome to College Square, where the vibrant lights reflect in the pond. Experience the heart of Kolkata's literary soul amidst the festive spirit.",
+      "lookFor": [
+        "See mirrored lights on water.",
+        "Find idols in the square.",
+        "Hear the festive sounds."
+      ],
+      "trivia": {
+        "q": "What is the primary focus of the community puja at College Square?",
+        "options": [
+          "A. A private family celebration",
+          "B. A Sarbojanin community puja",
+          "C. A religious gathering only",
+          "D. A corporate event"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "md-ali-park": {
+    "en": {
+      "id": "md-ali-park",
+      "story": "Welcome to the vibrant heart of Central Kolkata! Feel the electric energy as the community gathers for this grand Sarbojanin celebration.",
+      "lookFor": [
+        "See the elaborate pandal decor.",
+        "Hear the rhythmic sound of the dhak.",
+        "Spot the intricate idol details."
+      ],
+      "trivia": {
+        "q": "Which aspect of Durga Puja is characterized by long evening queues?",
+        "options": [
+          "A. The morning aarti.",
+          "B. The evening pandal viewing.",
+          "C. The preparation of offerings."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "santosh-mitra-square": {
+    "en": {
+      "id": "santosh-mitra-square",
+      "story": "Welcome to Santosh Mitra Square, a vibrant community puja in the heart of Central Kolkata. Feel the electric energy as this crowded celebration unfolds right before your eyes.",
+      "lookFor": [
+        "See massive idol replicas.",
+        "Hear the vibrant dhak beats.",
+        "Observe the festive crowds."
+      ],
+      "trivia": {
+        "q": "What is the primary characteristic of the puja at Santosh Mitra Square?",
+        "options": [
+          "It is a private family ceremony.",
+          "It is a community (sarbojanin) celebration.",
+          "It is a temple-based ritual.",
+          "It is a quiet neighborhood gathering."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  }
+}
