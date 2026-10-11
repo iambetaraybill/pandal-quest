@@ -31,7 +31,7 @@ const PILLARS = [
   {
     icon: Wallet,
     title: "$0 to run",
-    body: "Ollama is free. Gemma 4 E2B is free. OpenStreetMap is free. The whole stack is a laptop and a phone. That is the point of an open-weight challenge.",
+    body: "Ollama is free. Gemma 4 E2B is free. The street map is free. The whole stack is a laptop and a phone. That is the point of an open-weight challenge.",
   },
   {
     icon: Leaf,

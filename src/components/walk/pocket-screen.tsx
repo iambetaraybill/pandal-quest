@@ -39,7 +39,7 @@ export function PocketScreen({
   useEffect(() => () => stopHold(), []);
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col items-center justify-between bg-ink px-6 py-10 text-kash">
+     <div className="fixed inset-0 z-[5000] flex flex-col items-center justify-between bg-ink px-6 py-10 text-kash">
       <p className="text-[11px] tracking-[0.2em] text-kash/50 uppercase">Pocket mode · screen stays awake</p>
       <div className="grid justify-items-center gap-4 text-center">
         <Logo className="size-12 opacity-90" />

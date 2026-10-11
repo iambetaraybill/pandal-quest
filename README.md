@@ -113,7 +113,7 @@ If Ollama is down, the first two model steps become a regex parser and a templat
 
 38 curated stops across North, Central, South, Behala, Salt Lake and Howrah. Coordinates from [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors (ODbL) unless marked `approx`. Facts are conservative on purpose: founding years and well-known character, not this year’s theme (those change, and the model is told not to invent them).
 
-Maps: Leaflet + CARTO Voyager tiles.
+Maps: Leaflet + Esri World Street Map tiles. CARTO's keyless Voyager basemap now returns an "API key required" watermark, so the map uses Esri's public street tiles instead. Pandals are still pinned from OpenStreetMap.
 
 ## Scripts
 
