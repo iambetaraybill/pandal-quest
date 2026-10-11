@@ -3,7 +3,7 @@ import { PANDAL_BY_ID } from "@/lib/data/pandals";
 import pregenerated from "@/lib/data/stories.generated.json";
 import { chatJSON, MODEL } from "@/lib/ai/ollama";
 import { STORY_SCHEMA, storyMessages } from "@/lib/ai/prompts";
-import { fallbackStory, sanitizeStory } from "@/lib/story-fallback";
+import { fallbackStory, polishStory, sanitizeStory } from "@/lib/story-fallback";
 import type { StoryPack } from "@/lib/types";
 
 type Lang = "en" | "bn";
@@ -22,7 +22,7 @@ export async function getStory(id: string, lang: Lang, { live }: { live: boolean
   const p = PANDAL_BY_ID.get(id);
   if (!p) return null;
   const pre = PRE[id]?.[lang];
-  if (pre) return pre;
+  if (pre) return polishStory(pre, p);
   const key = `${id}:${lang}`;
   const cached = memory.get(key);
   if (cached) return cached;

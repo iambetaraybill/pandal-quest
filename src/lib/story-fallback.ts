@@ -51,6 +51,21 @@ export function fallbackStory(p: Pandal): StoryPack {
   };
 }
 
+const LOOK_RE = /^(touch|taste|climb|kiss|enter the sanctum)/i;
+
+/** Drops look-for lines that tell people to touch idols or clay, and strips A/B/C prefixes on trivia. */
+export function polishStory(pack: StoryPack, p: Pandal): StoryPack {
+  const curated = LOOK_FOR[p.kind];
+  const lookFor = pack.lookFor.map((item, i) => {
+    const clean = item.replace(/\.$/, "").trim();
+    if (LOOK_RE.test(clean) || clean.length < 8) return curated[i] ?? clean;
+    return clean;
+  });
+  while (lookFor.length < 3 && lookFor.length < curated.length) lookFor.push(curated[lookFor.length]);
+  const options = pack.trivia.options.map((o) => o.replace(/^[A-D]\.\s*/i, "").replace(/^[IVX]+\.\s*/i, "").trim());
+  return { ...pack, lookFor: lookFor.slice(0, 3), trivia: { ...pack.trivia, options } };
+}
+
 /** Rejects malformed model output so a broken card never reaches the walker. */
 export function sanitizeStory(raw: unknown, p: Pandal, model: string, lang: "en" | "bn"): StoryPack | null {
   if (!raw || typeof raw !== "object") return null;
@@ -61,12 +76,15 @@ export function sanitizeStory(raw: unknown, p: Pandal, model: string, lang: "en"
   const lookFor = Array.isArray(r.lookFor) ? (r.lookFor as unknown[]).map(String).filter(Boolean).slice(0, 3) : [];
   if (typeof r.story !== "string" || r.story.length < 20 || lookFor.length < 2) return null;
   if (typeof trivia?.q !== "string" || options.length < 3 || answer < 0 || answer >= options.length) return null;
-  return {
-    id: p.id,
-    story: r.story.trim(),
-    lookFor,
-    trivia: { q: trivia.q, options, answer },
-    model,
-    lang,
-  };
+  return polishStory(
+    {
+      id: p.id,
+      story: r.story.trim(),
+      lookFor,
+      trivia: { q: trivia.q, options, answer },
+      model,
+      lang,
+    },
+    p,
+  );
 }

@@ -364,5 +364,508 @@
       "model": "gemma4:e2b",
       "lang": "en"
     }
+  },
+  "rani-rashmoni-bari": {
+    "en": {
+      "id": "rani-rashmoni-bari",
+      "story": "Welcome to Janbazar, where tradition breathes in every old home. Feel the vibrant energy of this family puja echoing through the neighbourhood.",
+      "lookFor": [
+        "Spot intricate pandal decorations.",
+        "Hear rhythmic dhak drumming.",
+        "Observe vibrant community gathering."
+      ],
+      "trivia": {
+        "q": "What is the significance of a 'bonedi bari' in the context of a Durga Puja?",
+        "options": [
+          "A traditional community hall.",
+          "An old, ancestral family home.",
+          "A modern, temporary setup.",
+          "A temple dedicated to a deity."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "maddox-square": {
+    "en": {
+      "id": "maddox-square",
+      "story": "Welcome to Maddox Square, where community spirit thrives under the festive lights. Experience the vibrant energy of a Sarbojanin celebration in the heart of Ballygunge.",
+      "lookFor": [
+        "See the large traditional idol.",
+        "Hear the evening chatter.",
+        "Spot the festive lights."
+      ],
+      "trivia": {
+        "q": "What is the main feature of a Sarbojanin puja?",
+        "options": [
+          "A private family gathering.",
+          "A community-organized public celebration.",
+          "A religious ceremony held only at temples."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "singhi-park": {
+    "en": {
+      "id": "singhi-park",
+      "story": "Welcome to Singhi Park, where the community spirit shines bright near Dover Lane. Experience the grace of the idols and the rich artistry of the pandal.",
+      "lookFor": [
+        "See graceful idols.",
+        "Find craft-rich pandal.",
+        "Hear dhak drummers."
+      ],
+      "trivia": {
+        "q": "What is the general atmosphere of a community puja like Singhi Park?",
+        "options": [
+          "Intense, competitive celebration.",
+          "Graceful and community-focused.",
+          "Strictly religious and silent.",
+          "A modern, commercial event."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "ekdalia-evergreen": {
+    "en": {
+      "id": "ekdalia-evergreen",
+      "story": "Welcome to Gariahat's vibrant heart where community spirit shines bright. Feel the energy of this grand celebration as you step into the festive atmosphere.",
+      "lookFor": [
+        "See grand pandal decorations.",
+        "Hear the rhythmic dhak beats.",
+        "Find large idol details."
+      ],
+      "trivia": {
+        "q": "What is the primary focus of a 'sarbojanin' community puja?",
+        "options": [
+          "A. A private family gathering.",
+          "B. A celebration open to all people.",
+          "C. A religious ceremony for a specific sect.",
+          "D. A formal political event."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "hindustan-park": {
+    "en": {
+      "id": "hindustan-park",
+      "story": "Welcome to Hindustan Park, a leafy gem in South Kolkata! Experience the vibrant spirit of a community puja where neighbours gather to celebrate the divine presence.",
+      "lookFor": [
+        "See colourful pandal decorations.",
+        "Hear the rhythmic dhak beats.",
+        "Observe intricate idol craftsmanship."
+      ],
+      "trivia": {
+        "q": "What is the primary focus of a community puja like the one at Hindustan Park?",
+        "options": [
+          "Worshiping a single deity.",
+          "Celebrating the goddess with the entire community.",
+          "A private family ceremony."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "deshapriya-park": {
+    "en": {
+      "id": "deshapriya-park",
+      "story": "Welcome to Deshapriya Park, a vibrant community celebration in Rashbehari! Feel the energy of the Sarbojanin spirit as the festive atmosphere envelops you.",
+      "lookFor": [
+        "See the massive idol.",
+        "Hear the festive music.",
+        "Find the crowded lanes."
+      ],
+      "trivia": {
+        "q": "What is the general term for a community Durga Puja celebrated by the public?",
+        "options": [
+          "Bishar Puja",
+          "Sarbojanin Puja",
+          "Mela Puja",
+          "Maa's Welcome"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "tridhara": {
+    "en": {
+      "id": "tridhara",
+      "story": "Welcome to Rashbehari, where community spirit thrives under the festive lights. Feel the vibrant energy of a Sarbojanin gathering as Durga Puja descends upon the neighbourhood.",
+      "lookFor": [
+        "See striking installations now.",
+        "Hear the rhythmic dhak beats.",
+        "Spot intricate idol carvings."
+      ],
+      "trivia": {
+        "q": "Which deity is often associated with wealth and prosperity during Durga Puja?",
+        "options": [
+          "Ganesha",
+          "Lakshmi",
+          "Saraswati",
+          "Durga"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "ballygunge-cultural": {
+    "en": {
+      "id": "ballygunge-cultural",
+      "story": "Welcome to Ballygunge, where tradition thrives on Lake View Road. Feel the vibrant energy of this community puja as the festive spirit takes hold.",
+      "lookFor": [
+        "See intricate pandal decorations.",
+        "Hear rhythmic dhak drumming.",
+        "Spot traditional festive attire."
+      ],
+      "trivia": {
+        "q": "What is the primary characteristic of the Ballygunge Cultural Association puja?",
+        "options": [
+          "It is a modern, themed event.",
+          "It is a traditional, old-guard community puja.",
+          "It is a temporary, one-day celebration.",
+          "It is exclusively a religious ceremony."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "66-pally": {
+    "en": {
+      "id": "66-pally",
+      "story": "Welcome to Kalighat, where the vibrant energy of community puja meets the ancient spirit of the Kali temple. Feel the warmth of the Sarbojanin spirit as you step into this thoughtful celebration.",
+      "lookFor": [
+        "See the ancient temple nearby.",
+        "Hear the festive dhak beats.",
+        "Spot the Kalighat theme art."
+      ],
+      "trivia": {
+        "q": "Which deity is central to the theme of this Kalighat community puja?",
+        "options": [
+          "Durga",
+          "Kali",
+          "Ganesha",
+          "Lakshmi"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "badamtala-ashar-sangha": {
+    "en": {
+      "id": "badamtala-ashar-sangha",
+      "story": "Welcome to the vibrant heart of Kalighat! Feel the festive energy as you arrive at this popular community puja, where devotion fills the air.",
+      "lookFor": [
+        "See intricate idol decorations.",
+        "Hear the rhythmic dhak beats.",
+        "Spot the Kalighat theme art."
+      ],
+      "trivia": {
+        "q": "What is the primary characteristic of a 'sarbojanin' community puja?",
+        "options": [
+          "It is a private family event.",
+          "It is open to all members of the community.",
+          "It is exclusively for religious scholars.",
+          "It is only held during the monsoon season."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "mudiali-club": {
+    "en": {
+      "id": "mudiali-club",
+      "story": "Welcome to the vibrant heart of South Kolkata's community spirit! Feel the festive energy as you arrive at this beloved Lake Road stop, where tradition meets dazzling artistry.",
+      "lookFor": [
+        "See intricate theme work.",
+        "Hear the joyful dhak beats.",
+        "Spot the vibrant pandal décor."
+      ],
+      "trivia": {
+        "q": "What is the general term for the community-based Durga Puja celebrated at Mudiali Club?",
+        "options": [
+          "A. Private Puja",
+          "B. Sarbojanin Puja",
+          "C. Residential Puja",
+          "D. Temple Puja"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "chetla-agrani": {
+    "en": {
+      "id": "chetla-agrani",
+      "story": "Welcome to Chetla, where the vibrant energy of a community puja fills the air. Feel the excitement as the grand idols await their divine presence under the festive lights.",
+      "lookFor": [
+        "See huge crowds gather now.",
+        "Spot dramatic idol carvings.",
+        "Hear the dhak drumming sound."
+      ],
+      "trivia": {
+        "q": "What is the primary focus of a Sarbojanin Puja?",
+        "options": [
+          "A private family ceremony",
+          "A community celebration open to all",
+          "A religious event held only at temples"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "suruchi-sangha": {
+    "en": {
+      "id": "suruchi-sangha",
+      "story": "Welcome to the vibrant heart of New Alipore! Feel the festive energy as the community gathers for this grand celebration of Durga Puja.",
+      "lookFor": [
+        "See intricate craft displays.",
+        "Hear rhythmic dhak drumming.",
+        "Spot vibrant community decorations."
+      ],
+      "trivia": {
+        "q": "Which aspect of Durga Puja is primarily celebrated in community pujas like Suruchi Sangha?",
+        "options": [
+          "The private family ritual.",
+          "The grand, public celebration.",
+          "The temple's daily prayers.",
+          "The specific deity's personal worship."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "jodhpur-park": {
+    "en": {
+      "id": "jodhpur-park",
+      "story": "Welcome to Jodhpur Park, where community spirit shines bright. Experience the vibrant energy of a polished theme pandal.",
+      "lookFor": [
+        "See polished pandal decor.",
+        "Hear the festive dhak beats.",
+        "Spot vibrant community faces."
+      ],
+      "trivia": {
+        "q": "What is the primary focus of a 'Sarbojanin' puja?",
+        "options": [
+          "A private family ritual",
+          "A community-organized celebration",
+          "A religious ceremony for one deity",
+          "A government-sponsored event"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "babubagan": {
+    "en": {
+      "id": "babubagan",
+      "story": "Welcome to Dhakuria, where vibrant community spirit meets artistic pandals. Feel the energy of a Sarbojanin celebration as the festivities begin near the station.",
+      "lookFor": [
+        "See colourful decorations.",
+        "Hear the rhythmic dhak beats.",
+        "Spot intricate idol carvings."
+      ],
+      "trivia": {
+        "q": "What is the primary sound associated with Durga Puja pandals in Kolkata?",
+        "options": [
+          "The sound of temple bells",
+          "The rhythmic beat of the dhak",
+          "The sound of street vendors",
+          "The chanting of mantras"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "bosepukur-sitala-mandir": {
+    "en": {
+      "id": "bosepukur-sitala-mandir",
+      "story": "Welcome to Bosepukur! Experience Kasba's unique, community-driven spirit as you arrive at this vibrant Durga Puja stop.",
+      "lookFor": [
+        "See pandal materials.",
+        "Hear dhak rhythms.",
+        "Observe community joy."
+      ],
+      "trivia": {
+        "q": "What is a key characteristic of the community puja in Kasba?",
+        "options": [
+          "It is known for traditional, elaborate pandals.",
+          "It features experimental pandals using everyday materials.",
+          "It focuses solely on devotional singing.",
+          "It is a highly exclusive, private event."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "naktala-udayan-sangha": {
+    "en": {
+      "id": "naktala-udayan-sangha",
+      "story": "Welcome to the vibrant heart of Naktala, where the community spirit of Sarbojanin Puja shines bright. Feel the energy as the pandal preparations begin, setting the stage for a grand celebration.",
+      "lookFor": [
+        "See elaborate theme designs.",
+        "Hear the rhythmic dhak beats.",
+        "Spot intricate idol sculpting."
+      ],
+      "trivia": {
+        "q": "What is the primary focus of a Sarbojanin Puja?",
+        "options": [
+          "Individual family devotion",
+          "Community participation",
+          "Temple rituals only",
+          "Strictly religious observance"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "behala-notun-dal": {
+    "en": {
+      "id": "behala-notun-dal",
+      "story": "Welcome to Behala, where the community spirit shines bright for this grand celebration. Feel the energy of the Sarbojanin gathering as the pandal lights illuminate the evening.",
+      "lookFor": [
+        "See vibrant decorations.",
+        "Hear the dhak rhythm.",
+        "Spot idol craftsmanship."
+      ],
+      "trivia": {
+        "q": "Which type of Puja is known for involving the entire community?",
+        "options": [
+          "I. Community Puja",
+          "II. Private Puja",
+          "III. Family Puja",
+          "IV. Temple Puja"
+        ],
+        "answer": 0
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "barisha-club": {
+    "en": {
+      "id": "barisha-club",
+      "story": "Welcome to the vibrant heart of Behala-Barisha! Experience the artful spirit of this community puja where grand pandals illuminate the festive air.",
+      "lookFor": [
+        "See large pandal art.",
+        "Spot intricate idol details.",
+        "Hear the dhak rhythm."
+      ],
+      "trivia": {
+        "q": "What is the primary characteristic of the Barisha Club's Durga Puja?",
+        "options": [
+          "It is a private, exclusive event.",
+          "It is a community (sarbojanin) celebration.",
+          "It focuses only on traditional rituals.",
+          "It is a very small, intimate gathering."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "sabarna-roy-choudhury": {
+    "en": {
+      "id": "sabarna-roy-choudhury",
+      "story": "Welcome to the heart of Kolkata's oldest Puja! Feel the vibrant energy as tradition breathes life into this historic neighborhood. Experience the soulful spirit of a family puja rooted deep in time.",
+      "lookFor": [
+        "See ancient wooden carvings.",
+        "Hear the rhythmic dhak beats.",
+        "Spot vibrant festive lights."
+      ],
+      "trivia": {
+        "q": "What architectural style is often associated with the traditional 'bonedi bari' houses in Kolkata?",
+        "options": [
+          "Bengali vernacular architecture",
+          "Colonial Georgian style",
+          "Modern minimalist design",
+          "Indo-Saracenic revival"
+        ],
+        "answer": 0
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "fd-block": {
+    "en": {
+      "id": "fd-block",
+      "story": "Welcome to Salt Lake, where community spirit shines bright! Feel the festive energy as you enter this vibrant celebration.",
+      "lookFor": [
+        "See large theme decorations.",
+        "Hear the rhythmic dhak beats.",
+        "Spot intricate idol carvings."
+      ],
+      "trivia": {
+        "q": "What type of community puja is known for its large-budget themes in Salt Lake?",
+        "options": [
+          "A. Sattra Puja",
+          "B. Sarbojanin Puja",
+          "C. Mela Puja",
+          "D. Private Puja"
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
+  },
+  "belur-math": {
+    "en": {
+      "id": "belur-math",
+      "story": "Welcome to Belur, where tradition breathes in this old family puja. Feel the vibrant energy as devotees gather for this cherished celebration.",
+      "lookFor": [
+        "See intricate decorations.",
+        "Hear the festive dhak.",
+        "Find Kumari Puja crowds."
+      ],
+      "trivia": {
+        "q": "What significant event draws devotees from across Bengal on Ashtami morning?",
+        "options": [
+          "The lighting of the grand pandal.",
+          "The Kumari Puja.",
+          "The evening Aarti.",
+          "The distribution of prasad."
+        ],
+        "answer": 1
+      },
+      "model": "gemma4:e2b",
+      "lang": "en"
+    }
   }
 }
